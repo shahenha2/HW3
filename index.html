@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jungle Hala</title>
+
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Jungle Hala</h1>
+    <p>Click an animal or press its key </p>
+  </header>
+
+  <main class="container">
+    <section class="grid" aria-label="Animals">
+      <button class="card" data-sound="sounds/lion.mp3" data-key="L" aria-label="Lion (L)">
+        <img src="images/lion.jpg" alt="Lion" />
+        <span>Lion (L)</span>
+      </button>
+
+      <button class="card" data-sound="sounds/elephant.mp3" data-key="E" aria-label="Elephant (E)">
+        <img src="images/elephant.jpg" alt="Elephant" />
+        <span>Elephant (E)</span>
+      </button>
+
+      <button class="card" data-sound="sounds/monkey.mp3" data-key="M" aria-label="Monkey (M)">
+        <img src="images/monkey.jpg" alt="Monkey" />
+        <span>Monkey (M)</span>
+      </button>
+
+      <button class="card" data-sound="sounds/snake.mp3" data-key="S" aria-label="Snake (S)">
+        <img src="images/snake.jpg" alt="Snake" />
+        <span>Snake (S)</span>
+      </button>
+
+      <button class="card" data-sound="sounds/parrot.mp3" data-key="P" aria-label="Parrot (P)">
+        <img src="images/parrot.jpg" alt="Parrot" />
+        <span>Parrot (P)</span>
+      </button>
+
+      <button class="card" data-sound="sounds/frog.mp3" data-key="F" aria-label="Frog (F)">
+        <img src="images/frog.jpg" alt="Frog" />
+        <span>Frog (F)</span>
+      </button>
+
+      <button class="card" data-sound="sounds/tiger.mp3" data-key="T" aria-label="Tiger (T)">
+        <img src="images/tiger.jpg" alt="Tiger" />
+        <span>Tiger (T)</span>
+      </button>
+    </section>
+
+    <section class="controls" aria-label="Controls">
+      <button id="toggleMusic">Pause/Play Background</button>
+      <div id="hint" class="hint">Tip: press L, E, M, S, P, F, T</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Homework 3 - Client Side</small>
+  </footer>
+
+  <!-- JavaScript external -->
+  <script src="script.js" defer></script>
+</body>
+</html>
